@@ -31,7 +31,7 @@ class AgentServiceProvider extends ServiceProvider
 	 */
 	public function provides()
 	{
-		return array();
+		return ['agent'];
 	}
 
 }
