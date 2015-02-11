@@ -1,6 +1,7 @@
 {
     "name": "thytanium/agent",
-    "description": "",
+    "description": "User-Agent class ported from CodeIgniter to Laravel",
+    "license": "MIT",
     "authors": [
         {
             "name": "Alejandro Gonzalez",
