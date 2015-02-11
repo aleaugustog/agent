@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Thytanium\\Agent": "src/"
+            "Thytanium\\Agent\\": "src/"
         }
     },
     "minimum-stability": "stable"
