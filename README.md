@@ -14,3 +14,22 @@ This project is based on [CodeIgniter](http://codeigniter.com)'s [User_Agent](ht
 		"thytanium/agent": "dev-master"
 	}
 	```
+	
+2. In the cmd run `composer update`
+
+3. Edit `app/config/app.php`
+
+	```php
+	'providers' => array(
+		...
+		'Thytanium\Agent\AgentServiceProvider',
+	);
+	
+	...
+	
+	'aliases' array(
+		...
+		'Agent' => 'Thytanium\Agent\Facades\Agent',
+	);
+	
+	```
