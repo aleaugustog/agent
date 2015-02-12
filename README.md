@@ -35,8 +35,25 @@ This project is based on [CodeIgniter](http://codeigniter.com)'s [User_Agent](ht
 	
 ### Use
 #### Browser
-Firefox, Chrome, etc.
 
 ```php
-$browser = Agent::browser()
+$browser = Agent::browser() //Firefox, Chrome, etc.
+```
+
+#### Browser version
+
+```php
+$version = Agent::version() //35.0, 34.0, etc.
+```
+
+#### Platform
+
+```php
+$platform = Agent::platform() //Windows 8, Windows XP, Linux, MacOS X
+```
+
+#### Mobile
+
+```php
+$mobile = Agent::mobile() //Mobile or not
 ```
