@@ -5,8 +5,8 @@ It provides specific information about the user agents making requests to your a
 
 This project is based on [CodeIgniter](http://codeigniter.com)'s [User_Agent](http://github.com/bcit-ci/CodeIgniter) class.
 
-1. [Install](#install)
-2. [Use](#use)
+* [Install](#install)
+* [Use](#use)
 	* [Browser](#browser)
 	* [Platform](#platform)
 	* [Mobile](#mobile)
@@ -19,6 +19,8 @@ This project is based on [CodeIgniter](http://codeigniter.com)'s [User_Agent](ht
 	* [Is it a desktop?](#is-it-a-desktop)
 	* [Accepts language?](#accepts-language)
 	* [Accepts charset?](#accepts-charset)
+* [Contributing](#contributing)
+* [Links](#links)
 
 ### Install
 
@@ -126,3 +128,10 @@ $language = Agent::acceptLanguage('en') //true or false
 ```php
 $charset = Agent::acceptCharset('utf-8') //true or false
 ```
+
+### Contributing
+Feel free to contribute to this little project.
+
+### Links
+* [CodeIgniter](http://codeigniter.com)
+* [Laravel](http://laravel.com)
