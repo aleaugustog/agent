@@ -7,8 +7,8 @@ This project is based on [CodeIgniter](http://codeigniter.com)'s [User_Agent](ht
 
 1. [Install](#install)
 2. [Use](#use)
-		1. [Browser](#browser)
-		2. [Platform](#platform)
+	* [Browser](#browser)
+	* [Platform](#platform)
 
 ### Install
 
