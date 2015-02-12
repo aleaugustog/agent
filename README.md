@@ -15,7 +15,7 @@ This project is based on [CodeIgniter](http://codeigniter.com)'s [User_Agent](ht
 	}
 	```
 	
-2. In the cmd run `composer update`
+2. Run `composer update`
 
 3. Edit `app/config/app.php`
 
@@ -31,5 +31,9 @@ This project is based on [CodeIgniter](http://codeigniter.com)'s [User_Agent](ht
 		...
 		'Agent' => 'Thytanium\Agent\Facades\Agent',
 	);
-	
 	```
+	
+### Use
+#### Browser
+
+
