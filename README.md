@@ -35,5 +35,8 @@ This project is based on [CodeIgniter](http://codeigniter.com)'s [User_Agent](ht
 	
 ### Use
 #### Browser
+Firefox, Chrome, etc.
 
-
+```php
+$browser = Agent::browser()
+```
