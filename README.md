@@ -9,6 +9,16 @@ This project is based on [CodeIgniter](http://codeigniter.com)'s [User_Agent](ht
 2. [Use](#use)
 	* [Browser](#browser)
 	* [Platform](#platform)
+	* [Mobile](#mobile)
+	* [Robot](#robot)
+	* [Accepted languages](#accepted-languages)
+	* [Accepted charsets](#accepted-charsets)
+	* [Is it a browser?](#is-it-a-browser)
+	* [Is it a robot?](#is-it-a-robot)
+	* [Is it a mobile?](#is-it-a-mobile)
+	* [Is it a desktop?](#is-it-a-desktop)
+	* [Accepts language?](#accepts-language)
+	* [Accepts charset?](#accepts-charset)
 
 ### Install
 
