@@ -8,6 +8,7 @@ This project is based on [CodeIgniter](http://codeigniter.com)'s [User_Agent](ht
 ### Install
 
 1. Edit the `require` section in your `composer.json` file
+
 	```javascript
 	"require": {
 		"thytanium/agent": "dev-master"
