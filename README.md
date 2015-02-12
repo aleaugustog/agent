@@ -55,5 +55,59 @@ $platform = Agent::platform() //Windows 8, Windows XP, Linux, MacOS X
 #### Mobile
 
 ```php
-$mobile = Agent::mobile() //Mobile or not
+$mobile = Agent::mobile() //iPhone, iPad, PlayStation 3, Android
+```
+
+#### Robot
+
+```php
+$robot = Agent::robot() //Googlebot, Bing, Yahoo
+```
+
+#### Accepted languages
+
+```php
+$languages = Agent::languages() //en-us, es-ar, en-gb
+```
+
+#### Accepted charsets
+
+```php
+$charsets = Agent::charsets() //utf-8, iso-8859-1
+```
+
+#### Is it a browser?
+
+```php
+$browser = Agent::isBrowser() //true or false
+```
+
+#### Is it a robot?
+
+```php
+$robot = Agent::isRobot() //true or false
+```
+
+#### Is it a mobile?
+
+```php
+$mobile = Agent::isMobile() //true or false
+```
+
+#### Is it a desktop?
+
+```php
+$desktop = Agent::isDesktop() //true or false
+```
+
+#### Accepts language?
+
+```php
+$language = Agent::acceptLanguage('en') //true or false
+```
+
+#### Accepts charset?
+
+```php
+$charset = Agent::acceptCharset('utf-8') //true or false
 ```
