@@ -5,6 +5,10 @@ It provides specific information about the user agents making requests to your a
 
 This project is based on [CodeIgniter](http://codeigniter.com)'s [User_Agent](http://github.com/bcit-ci/CodeIgniter) class.
 
+1. [Install](#install)
+2. [Use](#use)
+	2.1. [Browser](#browser)
+
 ### Install
 
 1. Edit the `require` section in your `composer.json` file
