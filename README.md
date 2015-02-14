@@ -6,6 +6,8 @@ It provides specific information about the user agents making requests to your a
 This project is based on [CodeIgniter](http://codeigniter.com)'s [User_Agent](http://github.com/bcit-ci/CodeIgniter) class.
 
 * [Install](#install)
+	* [Laravel 4](#laravel-4)
+	* [Laravel 5](#laravel-5)
 * [Use](#use)
 	* [Browser](#browser)
 	* [Platform](#platform)
@@ -26,9 +28,19 @@ This project is based on [CodeIgniter](http://codeigniter.com)'s [User_Agent](ht
 
 1. Edit the `require` section in your `composer.json` file
 
+	#### Laravel 4
+
 	```javascript
 	"require": {
-		"thytanium/agent": "dev-master"
+		"thytanium/agent": "1.*"
+	}
+	```
+	
+	#### Laravel 5
+	
+	```javascript
+	"require": {
+		"thytanium/agent": "2.*"
 	}
 	```
 	
